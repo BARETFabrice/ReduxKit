@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.author                   = { "Baretfabrice" => "baretfabrice974@gmail.com" }
   spec.ios.deployment_target    = "5.0"
   spec.osx.deployment_target    = "10.7"
-  spec.source                   = { :git => "https://github.com/BARETFabrice/ReduxKit.git", :tag => "#{spec.version}" }
+  spec.source                   = { :git => "https://github.com/BARETFabrice/ReduxKit.git", :tag => spec.version }
   spec.source_files             = "ReduxKit/*swift"
 end
